@@ -1,11 +1,8 @@
-#Crie um programa que recebe a idade
-#do usuário e retorne uma mensagem no caso dele ter 18 ou  maior  e uma no caso dele ser menor.
+'''
+Você precisa converter o peso de produtos que é dado em libras para
+kg 1 lb = 0.45359237 kg
+'''
 
-idade = int(input("Digite sua idade: "))
-
-if idade>=18:
-    print("O usuario eh maior ou tem 18 anos!")
-else:
-    print("O usuario eh menor de idade!")
-
-print("Finalizando o programa!")
+peso_lb = float(input("Digite o peso do produto em libras (lb): "))
+peso_kg = peso_lb * 0.45359237
+print("O peso em quilogramas (kg) é:", peso_kg)
