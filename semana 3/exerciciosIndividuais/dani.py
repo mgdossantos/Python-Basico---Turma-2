@@ -8,8 +8,10 @@ se ele foi Aprovado, Recuperação ou Reprovado.
 
 '''
 #entrada: qtd de notas, notas
+
 #processamento:
 #media= somatorio de todas as notas / qtd
+
 #saida: media, situacao do aluno
 #0-4.9
 #5 - 6 rec
